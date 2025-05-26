@@ -1,0 +1,210 @@
+{
+  "articles": [
+    {
+      "title": "AWS Resource Start and Stop Scheduling for RDS, EKS and EC2",
+      "description": "Save money and reduce your carbon footprint by streamlining your database management effortlessly!",
+      "year": "2024",
+      "platform": "Medium",
+      "tags": ["AWS", "DevOps", "Cost Optimization"],
+      "link": "https://alessandro-annini.medium.com/aws-resource-start-and-stop-scheduling-for-rds-eks-and-ec2-de8b6852c8e3"
+    },
+    {
+      "title": "Lightning-Fast Development with Zed and Dev Containers",
+      "description": "T Minus 2 Minutes to Use Dev Containers with Zed",
+      "year": "2024",
+      "platform": "Medium / DEV",
+      "tags": ["Development", "Tools", "DevContainers"],
+      "link": "https://alessandro-annini.medium.com/lightning-fast-development-with-zed-and-dev-containers-11df1135b635"
+    },
+    {
+      "title": "What's my AGI again?",
+      "description": "Implementing an Autonomous Agent in JavaScript with OpenAI",
+      "year": "2023",
+      "platform": "Medium",
+      "tags": ["AI", "JavaScript", "OpenAI"],
+      "link": "https://alessandro-annini.medium.com/whats-my-agi-again-implementing-an-autonomous-agent-in-js-e05d73cf532c"
+    },
+    {
+      "title": "Agile or not you need a better estimation technique: PERT",
+      "description": "How to improve project estimations using PERT methodology",
+      "year": "2022",
+      "platform": "Medium",
+      "tags": ["Project Management", "Agile", "PERT"],
+      "link": "https://medium.com/@alessandro-annini/agile-or-not-you-need-a-better-estimation-technique-pert-52c75f1363c5"
+    },
+    {
+      "title": "Replace Redux with React Hooks, the easy way",
+      "description": "A simple alternative to Redux using React hooks for global state management",
+      "year": "2019",
+      "platform": "Medium",
+      "tags": ["React", "Redux", "Hooks", "State Management"],
+      "link": "https://alessandro-annini.medium.com/replace-redux-with-react-hooks-the-easy-way-4ce9fe2cf231"
+    },
+    {
+      "title": "GraphQL nested mutations with Apollo: small fatigue, max gain",
+      "description": "How to create deeply nested data using GraphQL mutations with Apollo Client",
+      "year": "2017",
+      "platform": "HackerNoon",
+      "tags": ["GraphQL", "Apollo", "React", "Mutations"],
+      "link": "https://medium.com/hackernoon/graphql-nested-mutations-with-apollo-small-fatigue-max-gain-1020f627ea2e"
+    },
+    {
+      "title": "Code a React website on your Android smartphone or tablet like you never imagined",
+      "description": "Use Android with Termux to code and host your React webapp from your smartphone",
+      "year": "2017",
+      "platform": "HackerNoon",
+      "tags": ["React", "Android", "Mobile Development", "Termux"],
+      "link": "https://medium.com/hackernoon/code-a-react-website-on-your-android-smartphone-or-tablet-like-you-never-imagined-3e56c534f6e7"
+    },
+    {
+      "title": "GitHub Operative System",
+      "description": "Exploring GitHub as a development operating system and workflow platform",
+      "year": "2017",
+      "platform": "Medium",
+      "tags": ["GitHub", "Development", "Workflow", "Tools"],
+      "link": "https://alessandro-annini.medium.com/github-operative-system-436fc43336f7"
+    }
+  ],
+  "skills": [
+    { "name": "React", "color": "bg-blue-500" },
+    { "name": "Node.js", "color": "bg-green-500" },
+    { "name": "AWS", "color": "bg-orange-500" },
+    { "name": "TypeScript", "color": "bg-blue-600" },
+    { "name": "Python", "color": "bg-yellow-500" },
+    { "name": "Kubernetes", "color": "bg-purple-500" },
+    { "name": "Docker", "color": "bg-cyan-500" },
+    { "name": "GraphQL", "color": "bg-pink-500" },
+    { "name": "LangChain", "color": "bg-red-500" },
+    { "name": "Terraform", "color": "bg-indigo-500" }
+  ],
+  "career": [
+    {
+      "year": "2023",
+      "role": "Senior Software Architect",
+      "company": "TeamSystem",
+      "icon": "Cpu",
+      "description": "Senior Architect & AI Champion - Reason about high-level software structures, making critical technical decisions that shape entire systems, balancing business needs with technical constraints, guiding development teams and ensuring scalable, maintainable architectures.",
+      "tags": ["AWS", "Kubernetes", "Node.js"]
+    },
+    {
+      "year": "2022",
+      "role": "Chief Technology Officer",
+      "company": "Nautes",
+      "icon": "Rocket",
+      "description": "CTO - Lead the company tech vision overseeing all aspects of technology strategy and implementation. Internal tech talks, chief of the technology office, Agile trainer.",
+      "tags": [
+        "Company OKR",
+        "R&D",
+        "Agile",
+        "formation",
+        "product development"
+      ]
+    },
+    {
+      "year": "2020",
+      "role": "Senior Developer",
+      "company": "Nautes",
+      "icon": "Rocket",
+      "description": "Engineering and developing custom solutions for our customers.",
+      "tags": [
+        "Company OKR",
+        "R&D",
+        "Agile",
+        "formation",
+        "product development"
+      ]
+    },
+    {
+      "year": "2018",
+      "role": "Founder",
+      "company": "Scriby",
+      "icon": "Terminal",
+      "description": "Scriby was to make the Italian electronic invoicing system and the business management in general easier, helping companies and professionals to save time and money.",
+      "tags": [
+        "Reactjs",
+        "React Native",
+        "GraphQL",
+        "Node.js",
+        "Next.js",
+        "AWS Amplify",
+        "Netlify",
+        "Python",
+        "Alexa Skill Kit"
+      ]
+    },
+    {
+      "year": "2015",
+      "role": "Software Developer",
+      "company": "Leaff Engineering",
+      "icon": "Cloud",
+      "description": "Developing a new cross-platform mobile entertainment system for avionic use on helicopters.",
+      "tags": [
+        "Meteor.js",
+        "Node.js",
+        "React js",
+        "React Native",
+        "Android Wear (using Meteor APK)",
+        "Famo.us"
+      ]
+    },
+    {
+      "year": "2013",
+      "role": "Mobile Developer",
+      "company": "TeamSystem",
+      "icon": "Smartphone",
+      "description": "I worked mainly on MyCicero (an app for parking, train, bus and metro payments), and Sistema Centrale Bordo (onboard application for buses that tracks fleet, navigate the driver and ticket validation, with Thales NFC validator too. For private and public transportation).",
+      "tags": [
+        ".Net Framework",
+        "C#",
+        "Asp.NET",
+        "Java for Android",
+        "Javascript",
+        "jQuery"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Guitar Tab Editor",
+      "description": "Interactive guitar tablature editor for musicians",
+      "tech": ["React", "Web Audio API"],
+      "githubLink": "https://github.com/AlessandroAnnini/guitar-tab-editor",
+      "liveLink": "https://guitar-tab-editor.alessandroannini.com/"
+    },
+    {
+      "name": "Agent Loop",
+      "description": "AI Agent with optional Human-in-the-Loop Safety for development automation",
+      "tech": ["Python", "Claude/GPT", "CLI"],
+      "githubLink": "https://github.com/AlessandroAnnini/agent-loop",
+      "liveLink": null
+    },
+    {
+      "name": "DSPy LLM Evaluator",
+      "description": "Evaluation framework for Large Language Model responses using DSPy",
+      "tech": ["Python", "DSPy", "OpenAI"],
+      "githubLink": "https://github.com/AlessandroAnnini/dspy-llm-evaluator",
+      "liveLink": null
+    },
+    {
+      "name": "DPDS Builder",
+      "description": "Data Protection Documentation System builder for GDPR compliance",
+      "tech": ["React", "JSON Schema"],
+      "githubLink": "https://github.com/AlessandroAnnini/dpds-builder",
+      "liveLink": "https://dpds-builder.alessandroannini.com/"
+    },
+    {
+      "name": "MIDI Controller",
+      "description": "Web-based MIDI controller for music production",
+      "tech": ["React", "Web MIDI API"],
+      "githubLink": "https://github.com/AlessandroAnnini/midi-controller",
+      "liveLink": "https://guitar-tab-editor.alessandroannini.com/"
+    },
+    {
+      "name": "PERT Critical Path",
+      "description": "Project management visualization tool with critical path analysis",
+      "tech": ["React", "Cytoscape"],
+      "githubLink": "https://github.com/AlessandroAnnini/pert-critical-path",
+      "liveLink": "https://perth-critical-path.alessandroannini.com/"
+    }
+  ]
+}
