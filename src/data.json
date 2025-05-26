@@ -197,7 +197,7 @@
       "description": "Web-based MIDI controller for music production",
       "tech": ["React", "Web MIDI API"],
       "githubLink": "https://github.com/AlessandroAnnini/midi-controller",
-      "liveLink": "https://guitar-tab-editor.alessandroannini.com/"
+      "liveLink": "https://midicontroller.alessandroannini.com/"
     },
     {
       "name": "PERT Critical Path",
