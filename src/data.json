@@ -169,6 +169,23 @@
         "Javascript",
         "jQuery"
       ]
+    },
+    {
+      "year": "2009",
+      "role": "Software Developer",
+      "company": "PluService s.r.l.",
+      "icon": "Code",
+      "description": "Worked mainly on MyCicero (parking, train, bus and metro payments) and Sistema Centrale Bordo (onboard app for buses with fleet tracking, navigation and NFC ticket validation via Thales devices).",
+      "tags": [
+        "JavaScript",
+        "Java",
+        "C#",
+        "Android Development",
+        "Programming",
+        ".NET",
+        "Front-end Development",
+        "English"
+      ]
     }
   ],
   "projects": [
