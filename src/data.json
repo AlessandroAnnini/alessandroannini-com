@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "title": "The End of Desktop Development: AI Agents + Android = Unstoppable",
+      "description": "How agent-loop brings AI-assisted software development directly to your Android device — redefining productivity and mobility.",
+      "year": "2025",
+      "platform": "Medium",
+      "tags": ["AI", "Android", "Development", "Agents", "Termux"],
+      "link": "https://medium.com/@alessandro-annini/the-end-of-desktop-development-ai-agents-android-unstoppable-ed54bd5273ed"
+    },
+    {
       "title": "AWS Resource Start and Stop Scheduling for RDS, EKS and EC2",
       "description": "Save money and reduce your carbon footprint by streamlining your database management effortlessly!",
       "year": "2024",
