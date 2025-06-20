@@ -190,6 +190,13 @@
   ],
   "projects": [
     {
+      "name": "SUP Finder",
+      "description": "Modern web app helping stand-up paddle enthusiasts find perfect board dimensions based on height, weight, and paddling style",
+      "tech": ["React", "TypeScript", "shadcn/ui", "Zod"],
+      "githubLink": "https://github.com/AlessandroAnnini/sup-finder",
+      "liveLink": "https://supfinder.alessandroannini.com/"
+    },
+    {
       "name": "Guitar Tab Editor",
       "description": "Interactive guitar tablature editor for musicians",
       "tech": ["React", "Web Audio API"],
