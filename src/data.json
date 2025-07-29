@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "title": "AI Writes Better Code When You Stop Thinking in Code",
+      "description": "From Chaos to Clarity: Building Software with AI Starts with the Right Map. Introducing LayeredDSL - a structured approach to AI-assisted development that moves from code to concept.",
+      "year": "2025",
+      "platform": "Medium",
+      "tags": ["AI", "LayeredDSL", "Development", "DSL", "Software Architecture"],
+      "link": "https://alessandro-annini.medium.com/ai-writes-better-code-when-you-stop-thinking-in-code-d17dfa4d876e"
+    },
+    {
       "title": "The End of Desktop Development: AI Agents + Android = Unstoppable",
       "description": "How agent-loop brings AI-assisted software development directly to your Android device — redefining productivity and mobility.",
       "year": "2025",
