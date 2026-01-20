@@ -1,6 +1,36 @@
 {
   "articles": [
     {
+      "title": "AI Writes Better Code When You Stop Thinking in Code",
+      "description": "From Chaos to Clarity: Building Software with AI Starts with the Right Map. Introducing LayeredDSL for deterministic AI-assisted development.",
+      "year": "2025",
+      "platform": "Venture Magazine",
+      "tags": [
+        "AI",
+        "Development",
+        "DSL",
+        "LayeredDSL",
+        "Software Architecture"
+      ],
+      "link": "https://blog.venturemagazine.net/ai-writes-better-code-when-you-stop-thinking-in-code-d17dfa4d876e"
+    },
+    {
+      "title": "Auto-Rename Terminal Tabs Based on Current Directory",
+      "description": "A tiny shell function to give meaningful names to your terminal tabs. Automatically update tab names to reflect the current working directory whenever you navigate.",
+      "year": "2025",
+      "platform": "Medium",
+      "tags": ["Development", "Tools", "Terminal", "Shell", "Bash", "Zsh"],
+      "link": "https://alessandro-annini.medium.com/auto-rename-terminal-tabs-based-on-current-directory-c3bed287270e"
+    },
+    {
+      "title": "When \"It Works\" Isn't Enough: The Art and Science of LLM Evaluation",
+      "description": "How to measure what matters in AI assistant responses and build better systems with the DSPy LLM Evaluator",
+      "year": "2025",
+      "platform": "Venture Magazine",
+      "tags": ["AI", "LLM", "Evaluation", "DSPy", "Machine Learning"],
+      "link": "https://blog.venturemagazine.net/when-it-works-isnt-enough-the-art-and-science-of-llm-evaluation-516bcd2d5905"
+    },
+    {
       "title": "The End of Desktop Development: AI Agents + Android = Unstoppable",
       "description": "How agent-loop brings AI-assisted software development directly to your Android device — redefining productivity and mobility.",
       "year": "2025",
@@ -75,6 +105,7 @@
   ],
   "skills": [
     { "name": "React", "color": "bg-blue-500" },
+    { "name": "React Native", "color": "bg-sky-500" },
     { "name": "Node.js", "color": "bg-green-500" },
     { "name": "AWS", "color": "bg-orange-500" },
     { "name": "TypeScript", "color": "bg-blue-600" },
@@ -83,9 +114,25 @@
     { "name": "Docker", "color": "bg-cyan-500" },
     { "name": "GraphQL", "color": "bg-pink-500" },
     { "name": "LangChain", "color": "bg-red-500" },
-    { "name": "Terraform", "color": "bg-indigo-500" }
+    { "name": "Terraform", "color": "bg-indigo-500" },
+    { "name": "Music Production", "color": "bg-pink-500" }
   ],
   "career": [
+    {
+      "year": "2024",
+      "role": "Enterprise Product Owner",
+      "company": "TeamSystem",
+      "icon": "Wine",
+      "description": "Leading TeamSystem Wine, the comprehensive ERP solution for wineries. Driving product vision and strategy for a platform that manages the entire wine lifecycle - from vineyard to distribution - serving cooperatives, small wineries, and large wine enterprises across Italy and Europe. Integrating AI, IoT, Cloud solutions, and Industry 4.0 technologies to transform wine production management.",
+      "tags": [
+        "Product Management",
+        "Wine Industry",
+        "ERP",
+        "AI Integration",
+        "Industry 4.0",
+        "Cloud Solutions"
+      ]
+    },
     {
       "year": "2023",
       "role": "Senior Software Architect",
@@ -189,6 +236,13 @@
     }
   ],
   "projects": [
+    {
+      "name": "Time Loch",
+      "description": "A metronome designed for songs with changing tempos. Create your song's tempo map once defining BPM and time signature for each section,then Time Loch handles all transitions automatically while you practice.",
+      "tech": ["React", "TypeScript", "Tone.js", "PWA", "Zustand", "shadcn/ui"],
+      "githubLink": "https://github.com/AlessandroAnnini/time-loch",
+      "liveLink": "https://timeloch.alean.space/"
+    },
     {
       "name": "SUP Finder",
       "description": "Modern web app helping stand-up paddle enthusiasts find perfect board dimensions based on height, weight, and paddling style",

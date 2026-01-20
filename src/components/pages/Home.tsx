@@ -11,24 +11,30 @@ import {
 import { BrutalistCard } from '@/components/BrutalistCard';
 
 interface HomeProps {
-  glitchText: string;
+  glitchFirstName: string;
+  glitchLastName: string;
 }
 
-export const Home: React.FC<HomeProps> = ({ glitchText }) => {
+export const Home: React.FC<HomeProps> = ({ glitchFirstName, glitchLastName }) => {
   return (
     <div className="space-y-8 sm:space-y-12 px-4 sm:px-6 lg:px-0">
       <div className="text-center">
         <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-black text-black mb-4 tracking-tighter transform -rotate-2 hover:rotate-2 transition-transform duration-300 leading-none">
-          {glitchText}
+          <span className="block">{glitchFirstName}</span>
+          <span className="block">{glitchLastName}</span>
         </h1>
         <div className="flex flex-col items-center justify-center space-y-3 sm:space-y-4">
-          <div className="bg-red-500 text-white text-lg sm:text-2xl md:text-3xl font-black p-3 sm:p-4 border-4 border-black inline-block transform rotate-1 hover:-rotate-1 transition-transform max-w-full text-center">
-            <span className="block sm:inline">SENIOR SOFTWARE</span>
-            <span className="block sm:inline sm:ml-2">ARCHITECT</span>
+          <div className="bg-red-500 text-white font-black p-3 sm:p-4 border-4 border-black inline-block transform rotate-1 hover:-rotate-1 transition-transform max-w-full text-center">
+            <span className="block text-base sm:text-xl md:text-2xl">
+              ENTERPRISE
+            </span>
+            <span className="block text-lg sm:text-2xl md:text-3xl">
+              PRODUCT OWNER
+            </span>
           </div>
           <div className="bg-yellow-400 text-black text-sm sm:text-lg md:text-xl font-black p-2 sm:p-3 border-4 border-black inline-block transform -rotate-1 max-w-full text-center">
-            <span className="block sm:inline">AI ENTHUSIAST •</span>
-            <span className="block sm:inline"> CLOUD EXPERT •</span>
+            <span className="block sm:inline">PRODUCT LEADERSHIP •</span>
+            <span className="block sm:inline"> AI ENTHUSIAST •</span>
             <span className="block sm:inline"> FULL-STACK DEV</span>
           </div>
         </div>
@@ -66,21 +72,21 @@ export const Home: React.FC<HomeProps> = ({ glitchText }) => {
               href="https://medium.com/@alessandro-annini"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-purple-600 text-white px-3 py-2 font-black uppercase hover:bg-purple-700 transition-colors border-2 border-black transform hover:scale-105 flex items-center justify-center gap-2 text-sm sm:text-base min-h-[44px]">
+              className="bg-purple-600 text-white px-3 py-2 font-black uppercase hover:bg-purple-700 transition-all duration-300 ease-in-out border-2 border-black transform hover:scale-[1.03] flex items-center justify-center gap-2 text-sm sm:text-base min-h-[44px]">
               <FileText className="w-4 h-4 flex-shrink-0" /> MEDIUM
             </a>
             <a
               href="https://github.com/alessandroannini"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-black text-white px-3 py-2 font-black uppercase hover:bg-gray-800 transition-colors border-2 border-black transform hover:scale-105 flex items-center justify-center gap-2 text-sm sm:text-base min-h-[44px]">
+              className="bg-black text-white px-3 py-2 font-black uppercase hover:bg-gray-800 transition-all duration-300 ease-in-out border-2 border-black transform hover:scale-[1.03] flex items-center justify-center gap-2 text-sm sm:text-base min-h-[44px]">
               <Github className="w-4 h-4 flex-shrink-0" /> GITHUB
             </a>
             <a
               href="https://www.linkedin.com/in/alessandroannini/"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-600 text-white px-3 py-2 font-black uppercase hover:bg-blue-700 transition-colors border-2 border-black transform hover:scale-105 flex items-center justify-center gap-2 text-sm sm:text-base min-h-[44px]">
+              className="bg-blue-600 text-white px-3 py-2 font-black uppercase hover:bg-blue-700 transition-all duration-300 ease-in-out border-2 border-black transform hover:scale-[1.03] flex items-center justify-center gap-2 text-sm sm:text-base min-h-[44px]">
               <Linkedin className="w-4 h-4 flex-shrink-0" /> LINKEDIN
             </a>
           </div>
@@ -140,7 +146,7 @@ export const Home: React.FC<HomeProps> = ({ glitchText }) => {
                 href="https://cultofdone.alessandroannini.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-black text-yellow-400 border-2 border-black px-3 py-2 font-black uppercase hover:bg-gray-800 transition-colors inline-block transform hover:scale-105 text-xs sm:text-sm min-h-[44px] flex items-center justify-center">
+                className="bg-black text-yellow-400 border-2 border-black px-3 py-2 font-black uppercase hover:bg-gray-800 transition-all duration-300 ease-in-out inline-block transform hover:scale-[1.03] text-xs sm:text-sm min-h-[44px] flex items-center justify-center">
                 ⚡ READ THE MANIFESTO
               </a>
             </div>

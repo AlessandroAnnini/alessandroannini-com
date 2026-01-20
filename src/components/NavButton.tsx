@@ -15,7 +15,10 @@ export const NavButton: React.FC<NavButtonProps> = ({
 }) => (
   <button
     onClick={() => onClick(section)}
-    className={`px-6 py-3 text-xl font-black uppercase tracking-wider border-4 border-black transition-all duration-200 transform hover:scale-105 hover:rotate-1 ${
+    role="tab"
+    aria-selected={active}
+    aria-controls={`${section}-panel`}
+    className={`px-6 py-3 text-xl font-black uppercase tracking-wider border-4 border-black transition-all duration-300 ease-in-out transform hover:scale-[1.03] hover:rotate-1 ${
       active
         ? 'bg-red-500 text-white shadow-[8px_8px_0px_0px_theme(colors.black)]'
         : 'bg-white text-black hover:bg-yellow-400 shadow-[4px_4px_0px_0px_theme(colors.black)]'

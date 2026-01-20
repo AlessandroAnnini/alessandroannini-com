@@ -60,7 +60,7 @@ export const Articles: React.FC<ArticlesProps> = ({ articles }) => {
               href={article.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-black text-white px-4 py-2 font-black uppercase hover:bg-gray-800 transition-colors inline-block transform hover:scale-105">
+              className="bg-black text-white px-4 py-2 font-black uppercase hover:bg-gray-800 transition-all duration-300 ease-in-out inline-block transform hover:scale-[1.03]">
               READ ARTICLE
             </a>
           </BrutalistCard>

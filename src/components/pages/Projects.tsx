@@ -49,7 +49,7 @@ export const Projects: React.FC<ProjectsProps> = ({ projects }) => {
                 href={project.githubLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-black text-white px-4 py-2 font-black uppercase hover:bg-gray-800 transition-colors inline-block transform hover:scale-105">
+                className="bg-black text-white px-4 py-2 font-black uppercase hover:bg-gray-800 transition-all duration-300 ease-in-out inline-block transform hover:scale-[1.03]">
                 <Github className="inline w-4 h-4 mr-2" />
                 CODE
               </a>
@@ -58,7 +58,7 @@ export const Projects: React.FC<ProjectsProps> = ({ projects }) => {
                   href={project.liveLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white text-black border-2 border-black px-4 py-2 font-black uppercase hover:bg-gray-200 transition-colors inline-block transform hover:scale-105">
+                  className="bg-white text-black border-2 border-black px-4 py-2 font-black uppercase hover:bg-gray-200 transition-all duration-300 ease-in-out inline-block transform hover:scale-[1.03]">
                   LIVE DEMO
                 </a>
               )}

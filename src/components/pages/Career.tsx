@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrutalistCard } from '@/components/BrutalistCard';
-import { Cpu, Rocket, Terminal, Cloud, Smartphone } from 'lucide-react';
+import { Cpu, Rocket, Terminal, Cloud, Smartphone, Wine } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 
 interface CareerItemRaw {
@@ -16,23 +17,21 @@ interface CareerProps {
   career: Array<CareerItemRaw>;
 }
 
+// Icon map for better performance and type safety
+const iconMap: Record<string, LucideIcon> = {
+  Wine,
+  Cpu,
+  Rocket,
+  Terminal,
+  Cloud,
+  Smartphone,
+};
+
 export const Career: React.FC<CareerProps> = ({ career }) => {
   // Map icon strings from data.json to actual Lucide icon components
   const getIconComponent = (iconName: string) => {
-    switch (iconName) {
-      case 'Cpu':
-        return <Cpu className="w-6 h-6" />;
-      case 'Rocket':
-        return <Rocket className="w-6 h-6" />;
-      case 'Terminal':
-        return <Terminal className="w-6 h-6" />;
-      case 'Cloud':
-        return <Cloud className="w-6 h-6" />;
-      case 'Smartphone':
-        return <Smartphone className="w-6 h-6" />;
-      default:
-        return <Terminal className="w-6 h-6" />;
-    }
+    const IconComponent = iconMap[iconName] || Terminal;
+    return <IconComponent className="w-6 h-6" aria-hidden="true" />;
   };
 
   return (
