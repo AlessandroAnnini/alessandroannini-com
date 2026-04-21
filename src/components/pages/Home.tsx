@@ -15,7 +15,10 @@ interface HomeProps {
   glitchLastName: string;
 }
 
-export const Home: React.FC<HomeProps> = ({ glitchFirstName, glitchLastName }) => {
+export const Home: React.FC<HomeProps> = ({
+  glitchFirstName,
+  glitchLastName,
+}) => {
   return (
     <div className="space-y-8 sm:space-y-12 px-4 sm:px-6 lg:px-0">
       <div className="text-center">
@@ -34,8 +37,8 @@ export const Home: React.FC<HomeProps> = ({ glitchFirstName, glitchLastName }) =
           </div>
           <div className="bg-yellow-400 text-black text-sm sm:text-lg md:text-xl font-black p-2 sm:p-3 border-4 border-black inline-block transform -rotate-1 max-w-full text-center">
             <span className="block sm:inline">PRODUCT LEADERSHIP •</span>
-            <span className="block sm:inline"> AI ENTHUSIAST •</span>
-            <span className="block sm:inline"> FULL-STACK DEV</span>
+            <span className="block sm:inline"> PRACTICAL AI •</span>
+            <span className="block sm:inline"> SOLID ARCHITECTURE</span>
           </div>
         </div>
       </div>
@@ -45,8 +48,8 @@ export const Home: React.FC<HomeProps> = ({ glitchFirstName, glitchLastName }) =
         <AlertDescription className="text-white">
           <span className="block">$ whoami</span>
           <span className="block mt-1">
-            &gt; Currently building the future at TeamSystem, exploring AI
-            boundaries with Langgraph, DSPy, OpenAI, Anthropic, and more
+            &gt; I work at the intersection of product, engineering, and AI to
+            build systems that are useful, scalable, and grounded in reality.
           </span>
         </AlertDescription>
       </Alert>
@@ -101,11 +104,17 @@ export const Home: React.FC<HomeProps> = ({ glitchFirstName, glitchLastName }) =
           </h3>
         </div>
         <p className="text-base sm:text-lg lg:text-xl font-bold italic mb-4 sm:mb-6 leading-relaxed">
-          "I really care about my evolution as architect and developer - I
-          regularly invest in detailed courses about new technologies, whether
-          for work or pure curiosity. When I feel I'm missing something or I'm
-          just curious about the latest trends, I go shopping for courses online
-          and prepare popcorn for the night."
+          "I work on complex software systems with a strong focus on
+          architecture, product thinking, and practical uses of AI. Over the
+          years I’ve moved across mobile, cloud, enterprise platforms, and
+          developer tooling, always with the same goal: build things that are
+          clear, robust, and genuinely useful.
+        </p>
+        <p className="text-base sm:text-lg lg:text-xl font-bold italic mb-4 sm:mb-6 leading-relaxed">
+          I'm especially interested in AI-enabled workflows, agentic systems,
+          and the way modern tools can reshape how software is designed and
+          delivered, as long as they remain grounded in real needs and good
+          engineering.
         </p>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 mb-4 sm:mb-6">
           <div className="bg-black text-white p-3 sm:p-4 border-2 border-white rounded">

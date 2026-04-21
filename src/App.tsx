@@ -10,10 +10,18 @@ import { Home } from './components/pages/Home';
 import { NavButton } from './components/NavButton';
 
 // Lazy load non-critical pages for better performance
-const Skills = lazy(() => import('./components/pages/Skills').then(m => ({ default: m.Skills })));
-const Career = lazy(() => import('./components/pages/Career').then(m => ({ default: m.Career })));
-const Projects = lazy(() => import('./components/pages/Projects').then(m => ({ default: m.Projects })));
-const Articles = lazy(() => import('./components/pages/Articles').then(m => ({ default: m.Articles })));
+const Skills = lazy(() =>
+  import('./components/pages/Skills').then((m) => ({ default: m.Skills })),
+);
+const Career = lazy(() =>
+  import('./components/pages/Career').then((m) => ({ default: m.Career })),
+);
+const Projects = lazy(() =>
+  import('./components/pages/Projects').then((m) => ({ default: m.Projects })),
+);
+const Articles = lazy(() =>
+  import('./components/pages/Articles').then((m) => ({ default: m.Articles })),
+);
 
 const App = () => {
   const [currentSection, setCurrentSection] = useState('home');
@@ -46,7 +54,12 @@ const App = () => {
       case 'articles':
         return <Articles articles={articles} />;
       default:
-        return <Home glitchFirstName={glitchFirstName} glitchLastName={glitchLastName} />;
+        return (
+          <Home
+            glitchFirstName={glitchFirstName}
+            glitchLastName={glitchLastName}
+          />
+        );
     }
   };
 
@@ -58,10 +71,14 @@ const App = () => {
         className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] bg-yellow-400 text-black font-black px-6 py-3 border-4 border-black">
         SKIP TO CONTENT
       </a>
-      
+
       {/* Navigation */}
-      <nav className="bg-black border-b-8 border-red-500 p-4 sticky top-0 z-50" aria-label="Main navigation">
-        <div className="max-w-6xl mx-auto flex flex-wrap justify-center gap-4" role="tablist">
+      <nav
+        className="bg-black border-b-8 border-red-500 p-4 sticky top-0 z-50"
+        aria-label="Main navigation">
+        <div
+          className="max-w-6xl mx-auto flex flex-wrap justify-center gap-4"
+          role="tablist">
           <NavButton
             section="home"
             active={currentSection === 'home'}
@@ -69,16 +86,16 @@ const App = () => {
             HOME
           </NavButton>
           <NavButton
-            section="skills"
-            active={currentSection === 'skills'}
-            onClick={setCurrentSection}>
-            SKILLS
-          </NavButton>
-          <NavButton
             section="career"
             active={currentSection === 'career'}
             onClick={setCurrentSection}>
             CAREER
+          </NavButton>
+          <NavButton
+            section="skills"
+            active={currentSection === 'skills'}
+            onClick={setCurrentSection}>
+            SKILLS
           </NavButton>
           <NavButton
             section="projects"
@@ -96,16 +113,20 @@ const App = () => {
       </nav>
 
       {/* Main Content */}
-      <main 
+      <main
         id="main-content"
-        className="flex-grow max-w-6xl mx-auto p-8" 
-        role="tabpanel" 
+        className="flex-grow max-w-6xl mx-auto p-8"
+        role="tabpanel"
         aria-labelledby={currentSection}>
-        <Suspense fallback={
-          <div className="text-center text-2xl font-black" role="status" aria-live="polite">
-            LOADING...
-          </div>
-        }>
+        <Suspense
+          fallback={
+            <div
+              className="text-center text-2xl font-black"
+              role="status"
+              aria-live="polite">
+              LOADING...
+            </div>
+          }>
           {renderContent()}
         </Suspense>
       </main>
