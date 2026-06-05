@@ -107,14 +107,16 @@
     { "name": "React", "color": "bg-blue-500" },
     { "name": "React Native", "color": "bg-sky-500" },
     { "name": "Node.js", "color": "bg-green-500" },
-    { "name": "AWS", "color": "bg-orange-500" },
+    { "name": "Azure", "color": "bg-blue-600" },
     { "name": "TypeScript", "color": "bg-blue-600" },
     { "name": "Python", "color": "bg-yellow-500" },
     { "name": "Kubernetes", "color": "bg-purple-500" },
     { "name": "Docker", "color": "bg-cyan-500" },
     { "name": "GraphQL", "color": "bg-pink-500" },
-    { "name": "LangChain", "color": "bg-red-500" },
+    { "name": "LangGraph", "color": "bg-red-500" },
     { "name": "Terraform", "color": "bg-indigo-500" },
+    { "name": "Self-hosting", "color": "bg-gray-600" },
+    { "name": "CI/CD", "color": "bg-orange-500" },
     { "name": "Music Production", "color": "bg-pink-500" }
   ],
   "career": [

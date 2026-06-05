@@ -30,10 +30,9 @@ export const Skills = ({ skills }: SkillsProps) => {
         <BrutalistCard bgColor="bg-red-400">
           <h3 className="text-2xl font-black mb-3">AI & CLOUD</h3>
           <div className="flex flex-wrap gap-2 mb-4">
-            <Badge className="bg-black text-white">OpenAI</Badge>
-            <Badge className="bg-black text-white">LangChain</Badge>
-            <Badge className="bg-black text-white">DSPy</Badge>
-            <Badge className="bg-black text-white">AWS</Badge>
+            <Badge className="bg-black text-white">LangGraph</Badge>
+            <Badge className="bg-black text-white">Self-hosting</Badge>
+            <Badge className="bg-black text-white">Azure</Badge>
           </div>
         </BrutalistCard>
 
@@ -61,6 +60,7 @@ export const Skills = ({ skills }: SkillsProps) => {
             <Badge className="bg-black text-white">Docker</Badge>
             <Badge className="bg-black text-white">Kubernetes</Badge>
             <Badge className="bg-black text-white">Terraform</Badge>
+            <Badge className="bg-black text-white">CI/CD</Badge>
           </div>
         </BrutalistCard>
       </div>
