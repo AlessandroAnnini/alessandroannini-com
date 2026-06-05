@@ -237,6 +237,20 @@
   ],
   "projects": [
     {
+      "name": "MCPDroid",
+      "description": "Android app that exposes phone capabilities (camera, location, screenshots, clipboard, notifications, files) as MCP tools over HTTP. Connect any MCP client via Tailscale to control your phone from an AI agent.",
+      "tech": ["Kotlin", "Android", "MCP", "Ktor", "Tailscale"],
+      "githubLink": "https://github.com/AlessandroAnnini/mcp-droid",
+      "liveLink": null
+    },
+    {
+      "name": "Garmin Sync",
+      "description": "Sync health & activity data from Garmin Connect into a local SQLite database. Generates daily reports and exposes an MCP server with 14 query tools for conversational AI queries.",
+      "tech": ["Python", "SQLite", "MCP", "Garmin Connect API", "uv"],
+      "githubLink": "https://github.com/AlessandroAnnini/garmin-sync",
+      "liveLink": null
+    },
+    {
       "name": "Time Loch",
       "description": "A metronome designed for songs with changing tempos. Create your song's tempo map once defining BPM and time signature for each section,then Time Loch handles all transitions automatically while you practice.",
       "tech": ["React", "TypeScript", "Tone.js", "PWA", "Zustand", "shadcn/ui"],
@@ -291,20 +305,6 @@
       "tech": ["React", "Cytoscape"],
       "githubLink": "https://github.com/AlessandroAnnini/pert-critical-path",
       "liveLink": "https://perth-critical-path.alessandroannini.com/"
-    },
-    {
-      "name": "Garmin Sync",
-      "description": "Sync health & activity data from Garmin Connect into a local SQLite database. Generates daily reports and exposes an MCP server with 14 query tools for conversational AI queries.",
-      "tech": ["Python", "SQLite", "MCP", "Garmin Connect API", "uv"],
-      "githubLink": "https://github.com/AlessandroAnnini/garmin-sync",
-      "liveLink": null
-    },
-    {
-      "name": "MCPDroid",
-      "description": "Android app that exposes phone capabilities (camera, location, screenshots, clipboard, notifications, files) as MCP tools over HTTP. Connect any MCP client via Tailscale to control your phone from an AI agent.",
-      "tech": ["Kotlin", "Android", "MCP", "Ktor", "Tailscale"],
-      "githubLink": "https://github.com/AlessandroAnnini/mcp-droid",
-      "liveLink": null
     }
   ]
 }
