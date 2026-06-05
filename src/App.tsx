@@ -30,7 +30,7 @@ const NAV_SECTIONS = ['home', 'career', 'skills', 'projects', 'articles'] as con
 
 const App = () => {
   const [currentSection, setCurrentSection] = useState('home');
-  const { articles, skills, projects, career } = data;
+  const { articles, skills, skillCategories, projects, career } = data;
 
   const glitchFirstName = useGlitchText('ALESSANDRO');
   const glitchLastName = useGlitchText('ANNINI', 3200);
@@ -42,7 +42,7 @@ const App = () => {
   const renderContent = () => {
     switch (currentSection) {
       case 'skills':
-        return <Skills skills={skills} />;
+        return <Skills skills={skills} skillCategories={skillCategories} />;
       case 'career':
         return <Career career={career} />;
       case 'projects':

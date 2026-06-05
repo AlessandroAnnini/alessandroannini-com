@@ -119,6 +119,28 @@
     { "name": "CI/CD", "color": "bg-orange-500" },
     { "name": "Music Production", "color": "bg-pink-500" }
   ],
+  "skillCategories": [
+    {
+      "name": "AI & CLOUD",
+      "color": "bg-red-400",
+      "items": ["LangGraph", "Self-hosting", "Azure"]
+    },
+    {
+      "name": "FRONTEND",
+      "color": "bg-blue-400",
+      "items": ["React", "Next.js", "TypeScript"]
+    },
+    {
+      "name": "BACKEND",
+      "color": "bg-green-400",
+      "items": ["Node.js", "Python", "GraphQL"]
+    },
+    {
+      "name": "DEVOPS",
+      "color": "bg-yellow-400",
+      "items": ["Docker", "Kubernetes", "Terraform", "CI/CD"]
+    }
+  ],
   "career": [
     {
       "year": "2024",
