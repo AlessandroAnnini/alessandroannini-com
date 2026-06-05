@@ -258,6 +258,13 @@
       "liveLink": "https://guitar-tab-editor.alessandroannini.com/"
     },
     {
+      "name": "Garmin Sync",
+      "description": "Sync health & activity data from Garmin Connect into a local SQLite database. Generates daily reports and exposes an MCP server with 14 query tools for conversational AI queries.",
+      "tech": ["Python", "SQLite", "MCP", "Garmin Connect API", "uv"],
+      "githubLink": "https://github.com/AlessandroAnnini/garmin-sync",
+      "liveLink": null
+    },
+    {
       "name": "Agent Loop",
       "description": "AI Agent with optional Human-in-the-Loop Safety for development automation",
       "tech": ["Python", "Claude/GPT", "CLI"],
