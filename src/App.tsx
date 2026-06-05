@@ -26,7 +26,7 @@ const PAGE_TITLES: Record<string, string> = {
   articles: 'Articles & Insights - Alessandro Annini',
 };
 
-const NAV_SECTIONS = ['home', 'career', 'skills', 'projects', 'articles'] as const;
+const NAV_SECTIONS = ['home', 'career', 'projects', 'skills', 'articles'] as const;
 
 const App = () => {
   const [currentSection, setCurrentSection] = useState('home');
