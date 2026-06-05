@@ -258,6 +258,13 @@
       "liveLink": "https://guitar-tab-editor.alessandroannini.com/"
     },
     {
+      "name": "MCPDroid",
+      "description": "Android app that exposes phone capabilities (camera, location, screenshots, clipboard, notifications, files) as MCP tools over HTTP. Connect any MCP client via Tailscale to control your phone from an AI agent.",
+      "tech": ["Kotlin", "Android", "MCP", "Ktor", "Tailscale"],
+      "githubLink": "https://github.com/AlessandroAnnini/mcp-droid",
+      "liveLink": null
+    },
+    {
       "name": "Garmin Sync",
       "description": "Sync health & activity data from Garmin Connect into a local SQLite database. Generates daily reports and exposes an MCP server with 14 query tools for conversational AI queries.",
       "tech": ["Python", "SQLite", "MCP", "Garmin Connect API", "uv"],
