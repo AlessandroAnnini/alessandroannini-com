@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrutalistCard } from '@/components/BrutalistCard';
-import { Cpu, Rocket, Terminal, Cloud, Smartphone, Wine } from 'lucide-react';
+import { Cpu, Rocket, Terminal, Cloud, Smartphone, Wine, Code } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 
@@ -25,6 +25,7 @@ const iconMap: Record<string, LucideIcon> = {
   Terminal,
   Cloud,
   Smartphone,
+  Code,
 };
 
 export const Career: React.FC<CareerProps> = ({ career }) => {
@@ -41,10 +42,10 @@ export const Career: React.FC<CareerProps> = ({ career }) => {
       </h2>
 
       <div className="space-y-6">
-        {career.map((job, index) => (
+        {career.map((job, i) => (
           <BrutalistCard
-            key={index}
-            bgColor={index % 2 === 0 ? 'bg-cyan-400' : 'bg-pink-400'}
+            key={`${job.company}-${job.year}`}
+            bgColor={i % 2 === 0 ? 'bg-cyan-400' : 'bg-pink-400'}
             className="transform hover:-rotate-1">
             <div className="flex items-center gap-4">
               <div className="bg-black text-white p-3 border-2 border-white">
@@ -55,7 +56,7 @@ export const Career: React.FC<CareerProps> = ({ career }) => {
                 <div className="text-xl font-bold">
                   {job.role} @ {job.company}
                 </div>
-                <div className="text-lg">{job.description}</div>
+                <div className="text-lg mb-2">{job.description}</div>
 
                 <div className="flex flex-wrap gap-2 mb-4">
                   {job.tags.map((tag) => (

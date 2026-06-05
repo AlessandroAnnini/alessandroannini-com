@@ -108,7 +108,7 @@ export const Home: React.FC<HomeProps> = ({
           architecture, product thinking, and practical uses of AI. Over the
           years I’ve moved across mobile, cloud, enterprise platforms, and
           developer tooling, always with the same goal: build things that are
-          clear, robust, and genuinely useful.
+          clear, robust, and genuinely useful."
         </p>
         <p className="text-base sm:text-lg lg:text-xl font-bold italic mb-4 sm:mb-6 leading-relaxed">
           I'm especially interested in AI-enabled workflows, agentic systems,

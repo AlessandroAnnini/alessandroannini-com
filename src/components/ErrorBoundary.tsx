@@ -40,7 +40,7 @@ export class ErrorBoundary extends Component<Props, State> {
               className="bg-black text-white px-6 py-3 font-black uppercase border-4 border-white hover:bg-gray-800 transition-colors transform hover:scale-105">
               RELOAD PAGE
             </button>
-            {process.env.NODE_ENV === 'development' && this.state.error && (
+            {import.meta.env.DEV && this.state.error && (
               <details className="mt-6 bg-white border-2 border-black p-4">
                 <summary className="font-black cursor-pointer">
                   Error Details (Dev Only)

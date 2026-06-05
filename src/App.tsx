@@ -34,7 +34,7 @@ const App = () => {
   // Update page title based on current section
   useEffect(() => {
     const titles: Record<string, string> = {
-      home: 'Alessandro Annini - Enterprise Product Owner & Full-Stack Developer',
+      home: 'Alessandro Annini - Enterprise Product Owner & Software Architect',
       skills: 'Tech Arsenal - Alessandro Annini',
       career: 'Career Evolution - Alessandro Annini',
       projects: 'Projects - Alessandro Annini',
@@ -115,7 +115,7 @@ const App = () => {
       {/* Main Content */}
       <main
         id="main-content"
-        className="flex-grow max-w-6xl mx-auto p-8"
+        className="flex-grow max-w-6xl mx-auto p-4 sm:p-8"
         role="tabpanel"
         aria-labelledby={currentSection}>
         <Suspense
