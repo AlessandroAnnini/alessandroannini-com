@@ -1,7 +1,15 @@
-import React from 'react';
 import { Badge } from '@/components/ui/badge';
 import { Github } from 'lucide-react';
 import { BrutalistCard } from '@/components/BrutalistCard';
+
+const COLORS = [
+  'bg-red-400',
+  'bg-blue-400',
+  'bg-green-400',
+  'bg-yellow-400',
+  'bg-purple-400',
+  'bg-cyan-400',
+] as const;
 
 interface ProjectsProps {
   projects: Array<{
@@ -13,7 +21,7 @@ interface ProjectsProps {
   }>;
 }
 
-export const Projects: React.FC<ProjectsProps> = ({ projects }) => {
+export const Projects = ({ projects }: ProjectsProps) => {
   return (
     <div className="space-y-8">
       <h2 className="text-6xl font-black text-center mb-8 transform -rotate-2">
@@ -24,16 +32,7 @@ export const Projects: React.FC<ProjectsProps> = ({ projects }) => {
         {projects.map((project, index) => (
           <BrutalistCard
             key={project.name}
-            bgColor={
-              [
-                'bg-red-400',
-                'bg-blue-400',
-                'bg-green-400',
-                'bg-yellow-400',
-                'bg-purple-400',
-                'bg-cyan-400',
-              ][index % 6]
-            }
+            bgColor={COLORS[index % COLORS.length]}
             className="transform hover:rotate-2">
             <h3 className="text-2xl font-black mb-3">{project.name}</h3>
             <p className="text-lg mb-4">{project.description}</p>

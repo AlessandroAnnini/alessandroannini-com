@@ -1,4 +1,3 @@
-import React from 'react';
 import { Badge } from '@/components/ui/badge';
 import { BrutalistCard } from '@/components/BrutalistCard';
 
@@ -9,7 +8,7 @@ interface SkillsProps {
   }>;
 }
 
-export const Skills: React.FC<SkillsProps> = ({ skills }) => {
+export const Skills = ({ skills }: SkillsProps) => {
   return (
     <div className="space-y-8">
       <h2 className="text-6xl font-black text-center mb-8 transform -rotate-1">

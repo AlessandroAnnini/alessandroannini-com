@@ -1,4 +1,3 @@
-import React from 'react';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import {
   Terminal,
@@ -15,10 +14,10 @@ interface HomeProps {
   glitchLastName: string;
 }
 
-export const Home: React.FC<HomeProps> = ({
+export const Home = ({
   glitchFirstName,
   glitchLastName,
-}) => {
+}: HomeProps) => {
   return (
     <div className="space-y-8 sm:space-y-12 px-4 sm:px-6 lg:px-0">
       <div className="text-center">

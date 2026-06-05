@@ -1,6 +1,16 @@
-import React from 'react';
 import { Badge } from '@/components/ui/badge';
 import { BrutalistCard } from '@/components/BrutalistCard';
+
+const COLORS = [
+  'bg-green-400',
+  'bg-yellow-400',
+  'bg-cyan-400',
+  'bg-pink-400',
+  'bg-red-400',
+  'bg-blue-400',
+  'bg-purple-400',
+  'bg-indigo-400',
+] as const;
 
 interface ArticlesProps {
   articles: Array<{
@@ -13,7 +23,7 @@ interface ArticlesProps {
   }>;
 }
 
-export const Articles: React.FC<ArticlesProps> = ({ articles }) => {
+export const Articles = ({ articles }: ArticlesProps) => {
   return (
     <div className="space-y-8">
       <h2 className="text-6xl font-black text-center mb-8 transform rotate-1">
@@ -24,18 +34,7 @@ export const Articles: React.FC<ArticlesProps> = ({ articles }) => {
         {articles.map((article, index) => (
           <BrutalistCard
             key={article.title}
-            bgColor={
-              [
-                'bg-green-400',
-                'bg-yellow-400',
-                'bg-cyan-400',
-                'bg-pink-400',
-                'bg-red-400',
-                'bg-blue-400',
-                'bg-purple-400',
-                'bg-indigo-400',
-              ][index % 8]
-            }
+            bgColor={COLORS[index % COLORS.length]}
             className="transform hover:-rotate-1">
             <div className="flex justify-between items-start mb-3">
               <Badge className="bg-black text-white font-bold">
